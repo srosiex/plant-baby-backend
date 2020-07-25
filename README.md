@@ -3,10 +3,19 @@
 Rails API Backend
 
 Users :: 
-    Plants
+    x Plants
 
 Plants ::
-    Scientific Name
-    Common Name
-    Care Instructions
-    
+    . Scientific Name
+    . Common Name
+    . Type
+    x Care Instructions
+    x user_id
+
+Type ::
+    x Plants-has many
+
+Care Instructions ::
+    . waterAmt
+    . Instructions:text
+    . belongs to plant
